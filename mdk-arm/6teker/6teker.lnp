@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"6teker\stm32f1xx_hal_gpio.o"
+"6teker\stm32f1xx_hal_flash_ex.o"
+"6teker\stm32f1xx_hal_rcc_ex.o"
+"6teker\stm32f1xx_hal_tim_ex.o"
+"6teker\stm32f1xx_hal_gpio_ex.o"
+"6teker\stm32f1xx_hal.o"
+"6teker\stm32f1xx_hal_tim.o"
+"6teker\stm32f1xx_hal_rcc.o"
+"6teker\stm32f1xx_hal_pwr.o"
+"6teker\stm32f1xx_hal_flash.o"
+"6teker\stm32f1xx_hal_uart.o"
+"6teker\stm32f1xx_hal_cortex.o"
+"6teker\stm32f1xx_hal_dma.o"
+"6teker\system_stm32f1xx.o"
+"6teker\startup_stm32f103xb.o"
+"6teker\stm32f1xx_hal_msp.o"
+"6teker\stm32f1xx_it.o"
+"6teker\main.o"
+--library_type=microlib --strict --scatter "6teker\6teker.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "6teker.map" -o 6teker\6teker.axf
